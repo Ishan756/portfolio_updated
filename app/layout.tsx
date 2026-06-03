@@ -4,9 +4,14 @@ import MovingBlob from '../components/MovingBlob';
 import Navbar from '../components/Navbar';
 
 export const metadata: Metadata = {
-  title: 'Ishan Mishra — Full Stack Developer',
-  description: 'Full Stack Developer specializing in AI systems, SaaS platforms and cloud infrastructure.',
+  title: 'Ishan Mishra',
+  description: 'Full Stack Developer & AI Engineer',
   themeColor: '#0a0a0a',
+  icons: {
+    icon: '/icon.png',
+    shortcut: '/icon.png',
+    apple: '/icon.png',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
