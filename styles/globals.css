@@ -58,7 +58,7 @@ button { cursor: pointer; transition: all 0.25s ease; }
   transform: translate(-50%, -50%);
 }
 .cursor-dot.is-hovering { width: 0; height: 0; }
-.cursor-ring.is-hovering { width: 60px; height: 60px; border-color: rgba(255,255,255,0.8); } */ */
+.cursor-ring.is-hovering { width: 60px; height: 60px; border-color: rgba(255,255,255,0.8); }
 
 /* ─── Scroll counter ─── */
 .scroll-counter {
