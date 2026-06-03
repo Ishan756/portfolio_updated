@@ -324,17 +324,19 @@ currentStreak: u.userCalendar.streak || cs,
             <div className="dsa-divider" />
 
             {/* Topics */}
-            <div className="dsa-topics">
-              <h2 className="dsa-topics-heading">TOPICS COVERED</h2>
-              <div className="dsa-topics-grid">
-                {stats.topics.map(t => (
-                  <span key={t} className="dsa-topic-tag">{t}</span>
-                ))}
+            {stats && (
+              <div className="dsa-topics">
+                <h2 className="dsa-topics-heading">TOPICS COVERED</h2>
+                <div className="dsa-topics-grid">
+                  {stats.topics.map(t => (
+                    <span key={t} className="dsa-topic-tag">{t}</span>
+                  ))}
+                </div>
               </div>
-            </div>
+            )}
 
             {/* Recent Submissions */}
-            {stats.recentSubmissions.length > 0 && (
+            {stats && stats.recentSubmissions.length > 0 && (
   <>
     <div className="dsa-divider" />
 
