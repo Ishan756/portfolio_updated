@@ -89,7 +89,7 @@ useEffect(() => {
           <Link href="/projects" onClick={(e) => navigateWithTransition(e, '/projects')} className={isActive('/projects') ? 'nav-active' : ''}>Work</Link>
           <Link href="/problem-solving" onClick={(e) => navigateWithTransition(e, '/problem-solving')} className={isActive('/problem-solving') ? 'nav-active' : ''}>DSA</Link>
           <Link href="/experience" onClick={(e) => navigateWithTransition(e, '/experience')} className={isActive('/experience') ? 'nav-active' : ''}>Experience</Link>
-          <a href="https://drive.google.com/file/d/16tZweGQ90i6SOFW--B2KXq9t0DWmD53N/view?usp=drivesdk" target="_blank" rel="noreferrer" className="nav-resume">Resume ↗</a>
+          <a href="https://drive.google.com/file/d/1KJ0-SJYxKJegzWDFa4JF6qbS_6omewoZ/view?usp=sharing" target="_blank" rel="noreferrer" className="nav-resume">Resume ↗</a>
         </div>
       </nav>
     </>
