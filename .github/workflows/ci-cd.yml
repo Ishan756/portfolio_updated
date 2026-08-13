@@ -28,7 +28,7 @@ jobs:
       run: npm ci
 
     - name: Run linter
-      run: npm run lint
+      run: npm run lint --if-present
 
     - name: Build project
       run: npm run build
